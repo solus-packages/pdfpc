@@ -2,24 +2,20 @@
     <Source>
         <Name>pdfpc</Name>
         <Packager>
-            <Name>Friedrich von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-only</License>
         <PartOf>office.viewers</PartOf>
         <Summary xml:lang="en">pdfpc is a GTK based presentation viewer application which uses Keynote like multi-monitor output to provide meta information to the speaker during the presentation.</Summary>
-        <Description xml:lang="en">pdfpc is a GTK based presentation viewer application which uses Keynote like multi-monitor output to provide meta information to the speaker during the presentation. 
-It is able to show a normal presentation window on one screen, while showing a more sophisticated overview on the other one providing information like a picture of the next slide, 
-as well as the left over time till the end of the presentation.
+        <Description xml:lang="en">pdfpc is a GTK based presentation viewer application which uses Keynote like multi-monitor output to provide meta information to the speaker during the presentation. It is able to show a normal presentation window on one screen, while showing a more sophisticated overview on the other one providing information like a picture of the next slide, as well as the left over time till the end of the presentation.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>pdfpc</Name>
         <Summary xml:lang="en">pdfpc is a GTK based presentation viewer application which uses Keynote like multi-monitor output to provide meta information to the speaker during the presentation.</Summary>
-        <Description xml:lang="en">pdfpc is a GTK based presentation viewer application which uses Keynote like multi-monitor output to provide meta information to the speaker during the presentation. 
-It is able to show a normal presentation window on one screen, while showing a more sophisticated overview on the other one providing information like a picture of the next slide, 
-as well as the left over time till the end of the presentation.
+        <Description xml:lang="en">pdfpc is a GTK based presentation viewer application which uses Keynote like multi-monitor output to provide meta information to the speaker during the presentation. It is able to show a normal presentation window on one screen, while showing a more sophisticated overview on the other one providing information like a picture of the next slide, as well as the left over time till the end of the presentation.
 </Description>
         <PartOf>office.viewers</PartOf>
         <Files>
@@ -40,12 +36,12 @@ as well as the left over time till the end of the presentation.
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-03-17</Date>
+        <Update release="2">
+            <Date>2018-04-25</Date>
             <Version>4.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Friedrich von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
