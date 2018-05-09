@@ -1,8 +1,8 @@
 name       : pdfpc
-version    : 4.1.1
-release    : 3
+version    : 4.1.2
+release    : 4
 source     :
-    - https://github.com/pdfpc/pdfpc/archive/v4.1.1.tar.gz : 8666a8096162f208fcb6d98799c775ced742a3f414ce1a606a42c66648fa7b85
+    - https://github.com/pdfpc/pdfpc/archive/v4.1.2.tar.gz : 0fcacd0deac39d93e21fc152b0cb01279b4ba209934fe385be6811236a03c87d
 license    : GPL-2.0-only
 component  : office.viewers
 summary    : pdfpc is a GTK based presentation viewer application which uses Keynote like multi-monitor output to provide meta information to the speaker during the presentation.
@@ -16,7 +16,7 @@ builddeps  :
     - extra-cmake-modules
     - vala
 setup      : |
-    %cmake_ninja 
+    %cmake_ninja
 build      : |
     %ninja_build
 install    : |
