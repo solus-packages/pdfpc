@@ -2,10 +2,10 @@
     <Source>
         <Name>pdfpc</Name>
         <Packager>
-            <Name>Friedrich von Gellhorn</Name>
+            <Name>F. von Gellhorn</Name>
             <Email>flinux@vongellhorn.ch</Email>
         </Packager>
-        <License>GPL-2.0-only</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>office.viewers</PartOf>
         <Summary xml:lang="en">pdfpc is a GTK based presentation viewer application which uses Keynote like multi-monitor output to provide meta information to the speaker during the presentation.</Summary>
         <Description xml:lang="en">pdfpc is a GTK based presentation viewer application which uses Keynote like multi-monitor output to provide meta information to the speaker during the presentation. It is able to show a normal presentation window on one screen, while showing a more sophisticated overview on the other one providing information like a picture of the next slide, as well as the left over time till the end of the presentation.
@@ -19,28 +19,33 @@
 </Description>
         <PartOf>office.viewers</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/pdfpc</Path>
             <Path fileType="data">/usr/etc/pdfpcrc</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="man">/usr/share/man/man1/pdfpc.1</Path>
+            <Path fileType="man">/usr/share/man/man5/pdfpcrc.5</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/blank.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/pdfpc/empty.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/eraser.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/hidden.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/highlight.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/pdfpc/linewidth.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/loaded.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/locked.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/pdfpc/move.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/pause.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/pdfpc.css</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/pen.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/saved.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/pdfpc/settings.svg</Path>
             <Path fileType="data">/usr/share/pixmaps/pdfpc/snow.svg</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2018-05-08</Date>
-            <Version>4.1.2</Version>
+        <Update release="5">
+            <Date>2018-12-20</Date>
+            <Version>4.3.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Friedrich von Gellhorn</Name>
+            <Name>F. von Gellhorn</Name>
             <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
