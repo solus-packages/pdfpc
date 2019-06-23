@@ -1,8 +1,8 @@
 name       : pdfpc
-version    : 4.3.2
-release    : 7
+version    : 4.3.4
+release    : 8
 source     :
-    - https://github.com/pdfpc/pdfpc/archive/v4.3.2.tar.gz : 44b487ea207bac88364e136570d4d4baaec08cfd1388e3477fb52a36b6c57f29
+    - https://github.com/pdfpc/pdfpc/archive/v4.3.4.tar.gz : cc3ccd7a23990b76dd6083e774d28f63d726a86db3a7f180b1c90596b735d5ed
 license    : GPL-2.0-or-later
 component  : office.viewers
 summary    : pdfpc is a GTK based presentation viewer application which uses Keynote like multi-monitor output to provide meta information to the speaker during the presentation.
