@@ -3,8 +3,8 @@
         <Name>pdfpc</Name>
         <Homepage>https://pdfpc.github.io/</Homepage>
         <Packager>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>office.viewers</PartOf>
@@ -42,12 +42,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2020-03-11</Date>
+        <Update release="12">
+            <Date>2020-03-13</Date>
             <Version>4.4.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>

@@ -1,6 +1,6 @@
 name       : pdfpc
 version    : 4.4.0
-release    : 11
+release    : 12
 source     :
     - https://github.com/pdfpc/pdfpc/archive/v4.4.0.tar.gz : 5fc457b081cdf02708436bb708940fd6b689e03fc336d3faab652f0b85592c00
 homepage   : https://pdfpc.github.io/
